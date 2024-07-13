@@ -6,9 +6,7 @@ function checkAnswer() {
   
   if (userAnswer === correctAnswer) {
       alert("Correct answer! Well done.");
-  } else {
-      alert("Incorrect answer. Please try again.");
-  }
+  } 
 }
 
 document.getElementById('submit-answer').addEventListener('click', checkAnswer);
